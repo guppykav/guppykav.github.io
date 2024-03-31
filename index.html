@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Guppy Kav Indonesia</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Guppy Kav</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Beranda</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Tentang Guppy Kav</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Jenis Guppy</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Beli Guppy</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Cari Guppy Terbaik?</span>
+                        <h1 class="home__data-title">Beli Guppy Berkualitas <br> Hanya di <b>Guppy Kav <br> Indonesia</b></h1>
+                        <a href="https://www.youtube.com/playlist?list=PL9gZOazrrFRl3VVrBS93Bc88s8CEDVf-l" class="button">Lihat Guppy</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">Lihat blog Guppy Kav untuk belajar</span>
+                            <a href="https://guppykav.blogspot.com/" class="button button--flex button--link home__info-button">
+                                Kunjungi <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Buat Aquascape yang menawan <br> dengan ikan guppy!</h2>
+                        <p class="about__description" align="justify">Guppy Kav merupakan pembudidaya beragam varietas guppy eksklusif dan berkualitas dengan harga yang kompetitif. Kualitas dan kesehatan ikan adalah prioritas utama kami, sehingga kepuasan pembeli dalam setiap pembelian ikan guppy dari Guppy Kav dapat terjamin. <br>  <br> 
+						Apakah kamu mencari koleksi ikan guppy yang istimewa, Guppy Kav memiliki apa yang kamu butuhkan. Dengan layanan pelanggan yang ramah dan pengetahuan yang mendalam tentang ikan guppy, tim kami siap membantu kamu menciptakan akuarium impian kamu. <br>  <br> 
+						Jangan biarkan akuarium kamu biasa-biasa saja. Segera kunjungi toko kami atau hubungi kami hari ini untuk memesan ikan guppy berkualitas tinggi dan mulailah petualangan baru kamu dalam merancang aquascape impianmu!
+                        </p>
+                        <a href="https://wa.me/+6281317328445" class="button">Hubungi Kami</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.webp" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Beragam Keindahan <br> Ikan Guppy yang Menawan</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Albino Full Red</h2>
+                                <span class="discover__description">by Guppy Kav</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Black Moscow</h2>
+                                <span class="discover__description">by Guppy Kav</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Blue Moscow</h2>
+                                <span class="discover__description">by Guppy Kav</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Red Tail Tuxedo</h2>
+                                <span class="discover__description">by Guppy Kav</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">Berbekal pengalaman <br> kami ahli di pelayanan</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">21</h2>
+                            <span class="experience__description">Tahun <br> Pengalaman</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">100+</h2>
+                            <span class="experience__description">Transaksi <br> 3 Bulan Terakhir</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">50,000+</h2>
+                            <span class="experience__description">Guppy <br> Masih Tersedia</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Video oleh WWF</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Perjuangan seekor ikan guppy dalam bertahan hidup ditengah beragam pencemaran air ulah manusia.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Pilih Guppy Yang Kamu Mau</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/discover1.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Albino Full Red</h3>
+                                <span class="place__subtitle">Tersedia</span>
+                                <span class="place__price">Rp. 125,000</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/discover3.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5,0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Blue Moscow</h3>
+                                <span class="place__subtitle">Tersedia</span>
+                                <span class="place__price">Rp. 120,000</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/discover2.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,9</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Black Moscow</h3>
+                                <span class="place__subtitle">Tersedia</span>
+                                <span class="place__price">Rp. 135,000</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place5.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Snow Blue Moscow</h3>
+                                <span class="place__subtitle">Terbatas</span>
+                                <span class="place__price">Rp. 150,000</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/discover4.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Red Tail Tuxedo</h3>
+                                <span class="place__subtitle">Habis</span>
+                                <span class="place__price">Rp. 225,000</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Berlangganan <br> dengan Kami</h2>
+                        <p class="subscribe__description">Karena pelanggan setia kami berkesempatan mendapatkan diskon khusus hingga 30% lebih hemat!
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Masukkan email" class="subscribe__input">
+    
+                            <button class="button">
+                                Langganan
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors2.webp" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors4.webp" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors5.webp" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Guppy Kav</h3>
+                        <p class="footer__description">Koleksi eksklusif, <br> guppy berkualitas tinggi, <br> karya seni hidup yang mengagumkan.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCu5-LSevoc5uRxDthqyEeow" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Tentang</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Visi Misi</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Fitur</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Usaha</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Tim</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Grosir</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Jadi member</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Bantuan</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Biasa Ditanyakan</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Pusat Bantuan</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Hubungi Kami</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2024 Guppy Kav. Didesain oleh <a href="https://el-salam.github.io">ESTech</a>.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Syarat dan Ketentuan Penggunaan</a>
+                        <a href="#" class="footer__terms-link">Kebijakan Privasi</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
